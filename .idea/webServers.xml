@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9530e2d0-7639-4e8e-8578-b5cfd91715c1" name="testdoor" url="http://iceber02.ftp.tools">
+        <fileTransfer host="iceber02.ftp.tools" port="21" rootFolder="/iceberg.vn.ua/testdoor">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="95f66794-db24-4c08-a073-19ec9a2bf4e5" name="door.in.ua" url="http://ftp.door.in.ua">
+        <fileTransfer host="ftp.door.in.ua" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
