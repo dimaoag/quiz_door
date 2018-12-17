@@ -283,4 +283,32 @@ var mySwiper = new Swiper ('.sw-wrap-checkbox', {
     }
 });
 
+var countClick1 = 0;
+var countClick2 = 0;
+
+$('.btn-submit1').click(function () {
+    var phone1 = $('.phone1').val();
+    var messenger1 = $('.messenger1').val();
+
+    if (phone1 && messenger1){
+        countClick1 += 1;
+    }
+
+    if (countClick1 > 1){
+        return false;
+    }
+});
+
+$('.btn-submit2').click(function () {
+    var phone2 = $('.phone2').val();
+    var messenger2 = $('.messenger2').val();
+
+    if (phone2 && messenger2){
+        countClick2 += 1;
+    }
+
+    if (countClick2 > 1){
+        return false;
+    }
+});
 
